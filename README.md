@@ -13,9 +13,6 @@ Welcome to my personal portfolio website! This project showcases my journey as a
   <a href="https://www.linkedin.com/in/veekshasripm" target="_blank">
     <img src="https://img.shields.io/badge/-🔗%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="veekshasri_resumee.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/-📄%20Resume-success?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume">
-  </a>
 </p>
 
 ## 🧠 About Me
