@@ -3,6 +3,20 @@
 Welcome to my personal portfolio website! This project showcases my journey as an **Aspiring Data Scientist**, **Web Developer**, and **Machine Learning Enthusiast**.
 
 🔗 Live Preview: [pulluruveekshasri-portfolio.netlify.app](https://pulluruveekshasri-portfolio.netlify.app)
+<p align="center">
+  <a href="https://pulluruveekshasri-portfolio.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/-🌐%20Live%20Portfolio-black?style=for-the-badge" alt="Live Portfolio">
+  </a>
+  <a href="https://github.com/PulluruVeeksha/PORTFOLIO" target="_blank">
+    <img src="https://img.shields.io/badge/-📁%20Source%20Code-blue?style=for-the-badge&logo=github" alt="Source Code">
+  </a>
+  <a href="https://www.linkedin.com/in/veekshasripm" target="_blank">
+    <img src="https://img.shields.io/badge/-🔗%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="veekshasri_resumee.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/-📄%20Resume-success?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume">
+  </a>
+</p>
 
 ## 🧠 About Me
 
