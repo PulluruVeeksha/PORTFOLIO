@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pulluru Veeksha Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS Animation Library -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Font Awesome -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<!-- Typed.js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  new Typed('#typed-text', {
+    strings: ['Aspiring Data Scientist', 'Web Developer', 'ML Enthusiast'],
+    typeSpeed: 60,
+    backSpeed: 30,
+    loop: true
+  });
+</script>
+
+</head>
+<body>
+  
+<!-- Navigation Bar -->
+<nav class="navbar">
+  <div class="nav-left">
+    <a href="#home" class="nav-logo">Veeksha Sri PM</a>
+  </div>
+  <ul class="nav-menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li> <!-- ✅ Updated to match outer skills wrapper -->
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-icons">
+    <a href="https://github.com/PulluruVeeksha" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/veekshasripm" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+</nav>
+
+
+<!-- Hero Header Section is separate and custom -->
+<section id="home" class="hero">
+  <div class="hero-container landscape-layout" data-aos="fade-up">
+
+    <!-- Image (left side) -->
+    <div class="hero-left">
+      <div class="work-badge">🎯 Open to Work</div>
+      <img src="photobg.png" alt="Veeksha Sri" class="hero-image" />
+    </div>
+
+    <!-- Text & Buttons (right side) -->
+    <div class="hero-right">
+      <h1 class="hero-name" data-aos="fade-down">VEEKSHA SRI PULLURU MOHAN</h1>
+
+      <p class="tagline" data-aos="fade-up" data-aos-delay="100">
+       <center> <strong>Aspiring Data Scientist and Web Developer.</strong><br /> 
+        Transforming data into insights. Building the web of tomorrow.</center> 
+      </p>
+
+      <div class="hero-button-group" data-aos="fade-up" data-aos-delay="200">
+        <a href="#contact" class="hero-button">Get in touch →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- About Me Section -->
+<section class="section" id="about" data-aos="fade-up">
+  <h2 class="section-title">👋 About Me</h2>
+  <p>
+    Hi! I’m<strong> Veeksha Sri Pulluru Mohan</strong> , a Computer Science and Engineering student specializing in<strong> Data Science.</strong>
+   who is passionate about applying technology to solve real-world challenges and continuously grow through innovative, collaborative, and impactful work in machine learning, web development, and data analytics.
+  </p>
+
+  
+  <!-- Interpersonal Skills (Icons + text only) -->
+  <div class="about-box" data-aos="fade-left">
+    <h3 class="about-heading">🤝 Interpersonal Skills</h3>
+    <ul class="interpersonal-icons">
+      <li><i class="fas fa-user-tie"></i> Leadership & Influence</li>
+      <li><i class="fas fa-clock"></i> Time Management</li>
+      <li><i class="fas fa-users"></i> Teamwork & Collaboration</li>
+      <li><i class="fas fa-comments"></i> Speaking Skills</li>
+    </ul>
+  </div>
+
+  
+
+<!--stats-->
+<section class="stats-section">
+  <div class="stat-card" data-aos="zoom-in">
+    <i class="fas fa-code"></i>
+    <h3>Projects Completed</h3>
+    <p>5</p>
+  </div>
+
+  <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+    <i class="fas fa-briefcase"></i>
+    <h3>Internships</h3>
+    <p>2 Completed</p>
+  </div>
+
+  <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+    <i class="fas fa-graduation-cap"></i>
+    <h3>Years of Education</h3>
+    <p>16+ Years</p>
+  </div>
+
+  <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+    <i class="fas fa-award"></i>
+    <h3>Certifications</h3>
+    <p>8 Earned</p>
+  </div>
+</section>
+<!-- Skills Section (combined) -->
+<section class="section" id="skills">
+
+  <!-- Skill Visualization Section -->
+  <div class="skill-visualization-section">
+    <h2 class="section-title">Technical Skill Visualization</h2>
+    <div class="skill-circle-container">
+      <div class="skill-circle" data-percentage="95">
+        <div class="circle-inner">
+          <span class="icon"><i class="fab fa-python"></i></span>
+          <span class="percentage">0%</span>
+        </div>
+        <p class="label">Python</p>
+      </div>
+
+      <div class="skill-circle" data-percentage="90">
+        <div class="circle-inner">
+          <span class="icon"><i class="fas fa-database"></i></span>
+          <span class="percentage">0%</span>
+        </div>
+        <p class="label">SQL</p>
+      </div>
+
+      <div class="skill-circle" data-percentage="80">
+        <div class="circle-inner">
+          <span class="icon"><i class="fab fa-html5"></i></span>
+          <span class="percentage">0%</span>
+        </div>
+        <p class="label">HTML</p>
+      </div>
+
+      <div class="skill-circle" data-percentage="85">
+        <div class="circle-inner">
+          <span class="icon"><i class="fab fa-css3-alt"></i></span>
+          <span class="percentage">0%</span>
+        </div>
+        <p class="label">CSS</p>
+      </div>
+
+      <div class="skill-circle" data-percentage="70">
+        <div class="circle-inner">
+          <span class="icon"><i class="fas fa-robot"></i></span>
+          <span class="percentage">0%</span>
+        </div>
+        <p class="label">Machine Learning</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Technical Competencies Section -->
+<section class="skills-section" id="skills">
+  <h2 class="section-title" data-aos="fade-up">💻 Technical Competencies</h2>
+
+  <div class="skills-columns">
+
+    <div class="skills-group" data-aos="fade-up" data-aos-delay="100">
+      <h3><i class="fas fa-desktop"></i> Operating Systems</h3>
+      <ul class="skills-list">
+        <li title="Windows OS"><i class="fab fa-windows"></i> Windows</li>
+        <li title="Mac Operating System"><i class="fab fa-apple"></i> Mac OS</li>
+      </ul>
+    </div>
+
+    <div class="skills-group" data-aos="fade-up" data-aos-delay="200">
+      <h3><i class="fas fa-code"></i> Languages</h3>
+      <ul class="skills-list">
+        <li title="Python Programming"><i class="fab fa-python"></i> Python</li>
+        <li title="HTML5 Markup Language"><i class="fab fa-html5"></i> HTML</li>
+        <li title="CSS3 Styling Language"><i class="fab fa-css3-alt"></i> CSS</li>
+      </ul>
+    </div>
+
+    <div class="skills-group" data-aos="fade-up" data-aos-delay="300">
+      <h3><i class="fas fa-database"></i> Databases</h3>
+      <ul class="skills-list">
+        <li title="Structured Query Language"><i class="fas fa-database"></i> SQL</li>
+      </ul>
+    </div>
+
+    <div class="skills-group" data-aos="fade-up" data-aos-delay="400">
+      <h3><i class="fas fa-lightbulb"></i> Areas of Interest</h3>
+      <ul class="skills-list">
+        <li title="Machine Learning"><i class="fas fa-robot"></i> Machine Learning</li>
+        <li title="Frontend + Backend Development"><i class="fas fa-code"></i> Web Development</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- Add at the end of the body -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+<!-- Education Section -->
+<section class="section" id="education" data-aos="fade-up">
+  <h2 class="section-title"><span class="section-bar">|</span> 🎓 Education</h2>
+  <div class="timeline">
+    <div class="timeline-item" data-aos="fade-left">
+      <div class="timeline-icon"><i class="fas fa-university"></i></div>
+      <div class="timeline-content">
+        <h3>B.Tech – Computer Science & Data Science Engineering</h3>
+        <p><strong>Institution:</strong> Madanapalle Institute of Technology & Science (MITS)</p>
+        <p><strong>Duration:</strong> 2022 – Present</p>
+        <p><strong>CGPA:</strong> 8.37</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-aos="fade-left" data-aos-delay="100">
+      <div class="timeline-icon"><i class="fas fa-school"></i></div>
+      <div class="timeline-content">
+        <h3>Intermediate (BIEAP)</h3>
+        <p><strong>College:</strong> Sri Chaitanya Girls Junior College, Tirupati</p>
+        <p><strong>Duration:</strong> 2020 – 2022</p>
+        <p><strong>Percentage:</strong> 59.5%</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+      <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+      <div class="timeline-content">
+        <h3>Matriculation (SSC)</h3>
+        <p><strong>School:</strong> Spring Dale Public School, Tirupati</p>
+        <p><strong>Duration:</strong> 2019 – 2020</p>
+        <p><strong>GPA:</strong> 100%</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Certifications Section -->
+<!-- Certifications Section -->
+<section class="section certifications">
+  <h2 class="section-title">Certifications & Achievements</h2>
+  <div class="timeline">
+
+    <!-- IBM -->
+    <div class="timeline-item" data-aos="zoom-in">
+      <div class="timeline-icon blue">
+        <img src="IBM-logo.jpg" alt="IBM">
+      </div>
+      <div class="timeline-content">
+        <h3>Python Basics for Data Science</h3>
+        <p>IBM</p>
+      </div>
+    </div>
+
+    <!-- Forage -->
+    <div class="timeline-item" data-aos="zoom-in">
+      <div class="timeline-icon blue">
+        <img src="forage.logo.webp" alt="Forage">
+      </div>
+      <div class="timeline-content">
+        <h3>Data Analytics Job Simulation</h3>
+        <p>Deloitte Forage</p>
+      </div>
+    </div>
+
+    <!-- AWS -->
+    <div class="timeline-item" data-aos="zoom-in">
+      <div class="timeline-icon yellow">
+        <img src="aws-logo-png-4-980x586.png" alt="AWS">
+      </div>
+      <div class="timeline-content">
+        <h3>Cloud Essentials Knowledge Badge</h3>
+        <p>AWS</p>
+      </div>
+    </div>
+
+    <!-- Great Learning -->
+    <div class="timeline-item" data-aos="zoom-in">
+      <div class="timeline-icon green">
+        <img src="greatlearning logo.jpeg" alt="Great Learning">
+      </div>
+      <div class="timeline-content">
+        <h3>SQL for Data Science</h3>
+        <p>Great Learning</p>
+      </div>
+    </div>
+
+    <!-- GeeksForGeeks -->
+    <div class="timeline-item" data-aos="zoom-in">
+      <div class="timeline-icon cyan">
+        <img src="gfg-logo.png" alt="GeeksForGeeks">
+      </div>
+      <div class="timeline-content">
+        <h3>Data Structures & Algorithms (8-week)</h3>
+        <p>GeeksForGeeks</p>
+      </div>
+    </div>
+
+    <!-- Agastya Foundation -->
+    <div class="timeline-item" data-aos="zoom-in">
+      <div class="timeline-icon green">
+        <img src="agasthya.png" alt="Agastya Foundation">
+      </div>
+      <div class="timeline-content">
+        <h3>Anveshana 2025</h3>
+        <p>Agastya Foundation</p>
+      </div>
+    </div>
+
+    <!-- NPTEL Certifications (with valid logo image) -->
+    <div class="timeline-item" data-aos="zoom-in">
+      <div class="timeline-icon blue">
+        <img src="nptel-logo.webp" alt="NPTEL">
+      </div>
+      <div class="timeline-content">
+        <h3>E-Business</h3>
+        <p>NPTEL (69%)</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-aos="zoom-in">
+      <div class="timeline-icon blue">
+        <img src="nptel-logo.webp" alt="NPTEL">
+      </div>
+      <div class="timeline-content">
+        <h3>System Design Verilog</h3>
+        <p>NPTEL (63%)</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-aos="zoom-in">
+      <div class="timeline-icon blue">
+        <img src="nptel-logo.webp" alt="NPTEL">
+      </div>
+      <div class="timeline-content">
+        <h3>Cloud Computing</h3>
+        <p>NPTEL (61%)</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-aos="zoom-in">
+      <div class="timeline-icon blue">
+        <img src="nptel-logo.webp" alt="NPTEL">
+      </div>
+      <div class="timeline-content">
+        <h3>Privacy & Security in Online Social Media</h3>
+        <p>NPTEL (69%)</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Professional Experience Section -->
+<section class="experience-section" id="experience" data-aos="fade-up">
+  <h2 class="section-title">💼 Internships</h2>
+
+  <article class="experience-entry" data-aos="fade-right">
+    <div class="icon-container">
+      <i class="fas fa-network-wired"></i>
+    </div>
+    <div class="experience-content">
+      <div class="experience-header">
+        <h3>Cisco – Internship in Networking</h3>
+        <span class="year">2025</span>
+      </div>
+      <p>Focused on IP addressing, subnetting, routing protocols, and hands-on practice with Cisco Packet Tracer.</p>
+    </div>
+  </article>
+
+  <article class="experience-entry" data-aos="fade-right" data-aos-delay="150">
+    <div class="icon-container">
+      <i class="fas fa-chart-line"></i>
+    </div>
+    <div class="experience-content">
+      <div class="experience-header">
+        <h3>ExcelR – Microsoft BI / Power BI</h3>
+        <span class="year">2024</span>
+      </div>
+      <p>Completed a 6-week internship focusing on dashboard creation, data transformation, and interactive visualizations using Power BI.</p>
+    </div>
+  </article>
+</section>
+
+
+<!-- Projects Section -->
+ <section id="home"></section>
+<section class="section" id="projects" data-aos="fade-up">
+  <h2 class="section-title">Projects</h2>
+  <div class="card-grid">
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <i class="fas fa-key fa-2x"></i>
+          <h3>IOT Enabled Key Finder</h3>
+        </div>
+        <div class="flip-card-back">
+          <p>Bluetooth-based tracker with Android app. (C++, Android Studio)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <i class="fas fa-coins fa-2x"></i>
+          <h3>Currency Converter</h3>
+        </div>
+        <div class="flip-card-back">
+          <p>Real-time exchange app using HTML, CSS, JS.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <i class="fas fa-suitcase-rolling fa-2x"></i>
+          <h3>Pack Your Bags</h3>
+        </div>
+        <div class="flip-card-back">
+          <p>Travel suggester site with filters and hotels UI.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <i class="fas fa-shield-alt fa-2x"></i>
+          <h3>Women Safety System</h3>
+        </div>
+        <div class="flip-card-back">
+          <p>Gesture detection with alerts using OpenCV.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <i class="fas fa-user-circle fa-2x"></i>
+      <h3>Portfolio Website</h3>
+    </div>
+    <div class="flip-card-back">
+      <p>Personal portfolio showcasing skills, projects, internships, and contact info using HTML, CSS, JavaScript & AOS.</p>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+
+<!-- Extra-curricular & Co-curricular Achievements -->
+<section class="section extra-curricular" id="extra" data-aos="fade-up">
+  <h2 class="section-title">🧾 Extra-curricular & Co-curricular Achievements</h2>
+  <div class="achievement-grid">
+    
+    <div class="achievement-card" data-aos="fade-right">
+      <div class="achievement-icon">🟣</div>
+      <div class="achievement-text">
+        <h3>Promotions Team Lead</h3>
+        <p>DS Organizing Committee</p>
+      </div>
+    </div>
+
+    <div class="achievement-card" data-aos="fade-right" data-aos-delay="100">
+      <div class="achievement-icon">🟣</div>
+      <div class="achievement-text">
+        <h3>Organizer</h3>
+        <p>Technical Symposium Dfesta 2025</p>
+      </div>
+    </div>
+
+    <div class="achievement-card" data-aos="fade-right" data-aos-delay="200">
+      <div class="achievement-icon">🟣</div>
+      <div class="achievement-text">
+        <h3>Event Coordinator</h3>
+        <p>"Connections" event at Dfesta 2024</p>
+      </div>
+    </div>
+
+    <div class="achievement-card" data-aos="fade-right" data-aos-delay="300">
+      <div class="achievement-icon">🟣</div>
+      <div class="achievement-text">
+        <h3>NCC Cadet</h3>
+        <p>Completed certified training</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+  <h2 class="section-title">Contact</h2>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Full Name" required />
+    <input type="email" placeholder="Email" required />
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+
+    <!-- Resume Download Button -->
+    <a href="veekshasri_resumee.pdf" download class="btn resume-btn">
+      <i class="fas fa-file-download"></i> Download Resume
+    </a>
+
+    <!-- Social Icons -->
+    <div class="social-icons">
+      <a href="https://github.com/PulluruVeeksha" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="http://www.linkedin.com/in/veekshasripm" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+
+    <!-- Email Text -->
+   <p class="email-note">
+  📧 Mail me at: 
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pulluruveeksha@gmail.com" target="_blank">
+    pulluruveeksha@gmail.com
+  </a>
+</p>
+
+  </form>
+</section>
+
+
+<!-- Footer -->
+ 
+<footer class="section center">
+  <p>&copy; 2024 Veeksha Sri Pulluru Mohan . All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
+
+</body>
+</html>
